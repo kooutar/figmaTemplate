@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+nav {
+    background-color: #EEEBEB;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+nav ul li {
+    margin: 20px;
+}
+
+.globale {
+    display: flex;
+   justify-content: center;
+   margin-top: 30px;   
+}
+
+.img1 img{
+   width: 520px;
+   height: auto;
+   padding: 10px;
+}
+
+.img2{
+    margin-left: 30px;
+    
+}
+.img2 .photo{
+    width: 280px;
+    height: auto;
+    padding: 10px ;
+}
+.img2 .A{
+    height: 307px; 
+}
+
+.container{
+    /* background-color: aqua; */
+    display: flex;
+}
+.contentImage img{
+    width: 520px;
+    height: auto;
+    margin-left: 150px;
+}
+
+.contentText{
+    margin: 150px 20px;
+    /* line-height: 5cap; */  
+}
+.contentText h1{
+    margin-bottom: 40px;
+}
+
+.contentText h3{
+    margin-bottom: 50px;
+}
+.contentText .p{
+    margin-bottom: 50px;
+    
+}
+.p2{
+    color: #000000;
+    opacity: 0.4;
+}
+.contaiiner{
+    display: block;
+    margin-bottom: 40px;
+}
+.contaiiner .cont h1{
+    text-align: center;
+}
+.contaiiner .images{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 150px ;
+}
+.images .ss{
+    padding: 10px 25px;
+}
+.ensemble{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+ button{
+    padding: 4px 13px;
+    border-radius: 2px;
+    box-shadow:  0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+ }
+
+ .tt{
+    margin: 20px 20px;  
+ }
+ .ps{
+   line-height: 5cap;
+ }
+
+ .finpartie{
+   
+    display: flex;
+    margin-left: 150px;
+ }
+ .par{
+   display: flex;
+ }
+ .discription{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    justify-content: center;
+ }
+ .discription strong{
+    margin-bottom: 10px;
+    size: 5cap;
+ }
+
+ footer{
+    background-color: #F2F1F1;
+    display: flex;
+    margin-top: 30px;
+ }
+ footer .container{
+    margin-left: 150px;
+     margin-top: 20px;
+ }
+ .div1{
+    display: block;
+    margin-right: 200px;
+ }
+ .div1 .sousdiv1{
+    display: block;
+ }
+
+
